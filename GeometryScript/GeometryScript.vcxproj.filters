@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{2df67340-6aaf-40e1-bb2c-bc5156cfd11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Error Handling">
+      <UniqueIdentifier>{f1ed1542-9d59-4d0f-af46-3d69800ef62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{aee39c25-4f79-4532-8d53-2cced3455910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party">
+      <UniqueIdentifier>{14c8c33d-815f-457c-8ba7-28cf6d3bc78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry Dash">
+      <UniqueIdentifier>{0fb3cddb-dffc-4bd2-9d4b-0df51a81445e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Platform">
+      <UniqueIdentifier>{660c5e95-906e-4ed6-b595-4624af7ff1ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{368faa7b-a619-4c5f-8bc1-188cedbc2b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Renderer">
+      <UniqueIdentifier>{46a20da3-0500-407e-b534-e58e5241e267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{f1d15f03-fae2-4ae1-b95b-53da62ab0378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{300580a3-a041-4f79-963b-5484395156b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\utfcpp">
+      <UniqueIdentifier>{1de5c0f8-2e4f-431f-890e-703ffee51103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\imgui">
+      <UniqueIdentifier>{44874ff7-dedf-4bbb-99e8-23ceaee6f55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\minhook">
+      <UniqueIdentifier>{4b32d861-93a3-4dc7-9dc9-cb5daf61045b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\minhook\hde">
+      <UniqueIdentifier>{7f7d9a7b-38fd-40e3-9ec0-26db62c8f2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Directory">
+      <UniqueIdentifier>{c8ae0827-be6b-4848-95d1-a2279a9451e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window">
+      <UniqueIdentifier>{c685b5e6-345d-43d4-89f4-a5026df51768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows">
+      <UniqueIdentifier>{098f5505-0639-4533-bbb8-718921bafeac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\About">
+      <UniqueIdentifier>{d34ce03d-9fb1-4428-b282-d1667c7265de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Main">
+      <UniqueIdentifier>{97e5ad8f-b3e8-4182-90d7-369687077e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Main\Category">
+      <UniqueIdentifier>{80f7de55-f167-4fb9-a432-9d89e300a2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Main\Category\Scripts">
+      <UniqueIdentifier>{0c3b9665-eeff-4fc3-b06c-8c505f357a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Scripts">
+      <UniqueIdentifier>{292d6f2c-d040-4b03-842e-61eb3fd91831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Node Engine">
+      <UniqueIdentifier>{081fecde-a470-4356-8149-5f95c9eb15fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\node">
+      <UniqueIdentifier>{c4b6434a-2278-44d3-b0fb-b65c131ae633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\node\libplatform">
+      <UniqueIdentifier>{08de3411-dd53-4659-8b37-fb6f5e29cfde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\node\cppgc">
+      <UniqueIdentifier>{4782e14f-2fa8-4c76-a32c-2618607000c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Third Party\node\cppgc\internal">
+      <UniqueIdentifier>{1a3f351f-09b7-4033-a41c-89deb79cee3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Debug">
+      <UniqueIdentifier>{a8414f30-406e-4cca-a20a-70c23660b8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL\Window\Windows\Main\Category\Debug">
+      <UniqueIdentifier>{ec9fdfb1-4ff4-4795-80cb-7b0c903022aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="error_utils.cpp">
+      <Filter>Utilities\Error Handling</Filter>
+    </ClCompile>
+    <ClCompile Include="geometrydash.cpp">
+      <Filter>Geometry Dash</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_utils.cpp">
+      <Filter>Utilities\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>OpenGL\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="log_macros.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl2.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\buffer.c">
+      <Filter>Third Party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\trampoline.c">
+      <Filter>Third Party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde32.c">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\hde\hde64.c">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="hook_manager.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="directory_utils.cpp">
+      <Filter>Utilities\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Third Party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>OpenGL\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="about_window.cpp">
+      <Filter>OpenGL\Window\Windows\About</Filter>
+    </ClCompile>
+    <ClCompile Include="main_window.cpp">
+      <Filter>OpenGL\Window\Windows\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="category.cpp">
+      <Filter>OpenGL\Window\Windows\Main\Category</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts_category.cpp">
+      <Filter>OpenGL\Window\Windows\Main\Category\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="scripts_window.cpp">
+      <Filter>OpenGL\Window\Windows\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="node_manager.cpp">
+      <Filter>Node Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="node_instance.cpp">
+      <Filter>Node Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_window.cpp">
+      <Filter>OpenGL\Window\Windows\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="minhook\MinHook.c">
+      <Filter>Third Party\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_category.cpp">
+      <Filter>OpenGL\Window\Windows\Main\Category\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="program.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error_utils.h">
+      <Filter>Utilities\Error Handling</Filter>
+    </ClInclude>
+    <ClInclude Include="build.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="geometrydash.h">
+      <Filter>Geometry Dash</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_utils.h">
+      <Filter>Utilities\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>OpenGL\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="log_macros.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\utf8.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\checked.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\core.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\cpp11.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\cpp17.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="utf8\unchecked.h">
+      <Filter>Third Party\utfcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl2.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\buffer.h">
+      <Filter>Third Party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\MinHook.h">
+      <Filter>Third Party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\trampoline.h">
+      <Filter>Third Party\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde32.h">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\hde64.h">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\pstdint.h">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table32.h">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook\hde\table64.h">
+      <Filter>Third Party\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hook_manager.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_text_extension.h">
+      <Filter>Third Party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="directory_utils.h">
+      <Filter>Utilities\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="window.h">
+      <Filter>OpenGL\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="about_window.h">
+      <Filter>OpenGL\Window\Windows\About</Filter>
+    </ClInclude>
+    <ClInclude Include="main_window.h">
+      <Filter>OpenGL\Window\Windows\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="category.h">
+      <Filter>OpenGL\Window\Windows\Main\Category</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts_category.h">
+      <Filter>OpenGL\Window\Windows\Main\Category\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="scripts_window.h">
+      <Filter>OpenGL\Window\Windows\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="node_manager.h">
+      <Filter>Node Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="node_instance.h">
+      <Filter>Node Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="node\node.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\node_version.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-platform.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8config.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-internal.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-version.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-cppgc.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-fast-api-calls.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-inspector.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-inspector-protocol.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-metrics.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-profiler.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-unwinder-state.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-util.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-value-serializer-version.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-version-string.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-wasm-trap-handler-posix.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\v8-wasm-trap-handler-win.h">
+      <Filter>Third Party\node</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\allocation.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\common.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\cross-thread-persistent.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\custom-space.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\default-platform.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\ephemeron-pair.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\explicit-management.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\garbage-collected.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\heap.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\heap-consistency.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\heap-state.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\heap-statistics.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\liveness-broker.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\macros.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\member.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\name-provider.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\object-size-trait.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\persistent.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\platform.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\prefinalizer.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\process-heap-statistics.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\sentinel-pointer.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\source-location.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\testing.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\trace-trait.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\type-traits.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\visitor.h">
+      <Filter>Third Party\node\cppgc</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\api-constants.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\atomic-entry-flag.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\caged-heap-local-data.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\compiler-specific.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\finalizer-trait.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\gc-info.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\logging.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\name-trait.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\persistent-node.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\pointer-policies.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\prefinalizer-handler.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\cppgc\internal\write-barrier.h">
+      <Filter>Third Party\node\cppgc\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="node\libplatform\libplatform.h">
+      <Filter>Third Party\node\libplatform</Filter>
+    </ClInclude>
+    <ClInclude Include="node\libplatform\libplatform-export.h">
+      <Filter>Third Party\node\libplatform</Filter>
+    </ClInclude>
+    <ClInclude Include="node\libplatform\v8-tracing.h">
+      <Filter>Third Party\node\libplatform</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_window.h">
+      <Filter>OpenGL\Window\Windows\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_category.h">
+      <Filter>OpenGL\Window\Windows\Main\Category\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
