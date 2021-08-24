@@ -22,6 +22,42 @@ This project is currently a work-in-progress in my free time, and I'm currently 
 
 Since Visual Studio has issues mixing Filters and Folders, I'm exclusively using filters for this project, which is why the actual source structure looks a bit messy. Trust me, it's very neat and tidy once you load it up in VS!
 
+Source Structure:
+```
+GeometryScript/
+├── Geometry Dash/
+│   └── Tthe initializer, which starts things like the Renderer and NodeManager
+├── Globals/
+│   └── A single header defining build constants
+├── Hooks/
+│   └── The trampoline hooking manager
+├── Logging/
+│   └── The log macros, which stream into <dllname>.log
+├── Node Engine/
+│   └── The V8 and Node.JS engine code, currently a work-in-progress
+├── OpenGL/
+│   ├── Renderer/
+│   │   └── The ImGUI renderer, which hooks wglSwapBuffers to display our windows
+│   └── Window/
+│       └── Windows/
+│           ├── Various ImGUI window definitions
+│           └── Main/
+│               ├── The Main Window
+│               └── Categories/
+│                   └── The definitions for menu bar categories
+├── Source Files/
+│   └── Dllmain and Program, which start the main threads and initialize everything
+├── Third Party/
+│   └── Headers for all of the external libraries used, like MinHook, ImGUI, and V8
+└── Utilities/
+    ├── Directory/
+    │   └── Directory utilities for finding paths
+    ├── Error Handling/
+    │   └── Macros for quickly exiting the program and displaying an error
+    └── Platform/
+        └── Various Platform utilities, like AOB Pattern Scanning (sigscanning)
+ ```
+
 ## Examples
 
 TBD
