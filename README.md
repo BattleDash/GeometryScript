@@ -32,3 +32,13 @@ TBD
 ## API
 
 TBD
+
+## Credits
+
+This project was made in some way with the following projects:
+
+- [MinHook](https://github.com/TsudaKageyu/minhook)
+- [ImGUI](https://github.com/ocornut/imgui)
+- [Node.JS](https://github.com/nodejs/node)
+- [V8](https://v8.dev)
+- [ReShade](https://github.com/crosire/reshade)
