@@ -17,6 +17,7 @@
 mono_crash.*
 
 # Build results
+[Dd]evelopment/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -49,6 +50,7 @@ TestResult.xml
 nunit-*.xml
 
 # Build Results of an ATL Project
+[Dd]evelopment/
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
