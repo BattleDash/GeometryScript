@@ -26,7 +26,7 @@ Source Structure:
 ```
 GeometryScript/
 ├── Geometry Dash/
-│   └── Tthe initializer, which starts things like the Renderer and NodeManager
+│   └── The initializer, which starts things like the Renderer and NodeManager
 ├── Globals/
 │   └── A single header defining build constants
 ├── Hooks/
