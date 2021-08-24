@@ -12,7 +12,7 @@
   <a href="#development">Development</a> •
   <a href="#examples">Examples</a> •
   <a href="#usage">Usage</a> •
-  <a href="#api">API</a>
+  <a href="#api">API</a> •
   <a href="#credits">Credits</a>
 </p>
 
