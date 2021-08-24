@@ -19,6 +19,8 @@
 
 This project is currently a work-in-progress in my free time, and I'm currently debugging issues with the V8 JavaScript engine and embedding Node.js, as the docs are really quite bad.
 
+Since Visual Studio has issues mixing Filters and Folders, I'm exclusively using filters for this project, which is why the actual source structure looks a bit messy. Trust me, it's very neat and tidy once you load it up in VS!
+
 ## Examples
 
 TBD
