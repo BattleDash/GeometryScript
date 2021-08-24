@@ -22,6 +22,8 @@ This project is currently a work-in-progress in my free time, and I'm currently 
 
 Since Visual Studio has issues mixing Filters and Folders, I'm exclusively using filters for this project, which is why the actual source structure looks a bit messy. Trust me, it's very neat and tidy once you load it up in VS!
 
+Will be migrated from a VS project to cmake in the future.
+
 Source Structure:
 ```
 GeometryScript/
